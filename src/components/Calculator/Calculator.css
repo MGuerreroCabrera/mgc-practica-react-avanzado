@@ -1,0 +1,33 @@
+.calculator-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+input {
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0px;
+}
+
+button {
+    min-width: 50px;
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    outline: 2px solid whitesmoke;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
